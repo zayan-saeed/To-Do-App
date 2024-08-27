@@ -1,0 +1,65 @@
+.todo-container{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.searchBar{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 3px 6px #00000066;
+    padding: 25px;
+    margin-bottom: 10px;
+
+}
+.search-area{
+    display: flex;
+    margin-top: 20px;
+}
+.inputbar{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 2px;
+}
+.todo-list{
+    background-color: rgb(213, 240, 240);
+    padding: 0.5px 9px 9px 9px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 4px 2px 6px #00000066;
+    margin-bottom: 8px;
+}
+.todo-name{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(179, 210, 255);
+    margin:15px 0;
+    padding: 10px;
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px #00000066;
+    
+}
+.checkbox{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+.checkbox input{
+    padding: 30px;
+}
+.lightbtn{
+    
+    box-shadow: 2px 3px 5px #00000066;
+    margin-right: 8px;
+    
+}
+.done{
+    color: aliceblue;
+    display: flex;
+    gap: 7px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px #00000066;
+    padding: 2.5px 6px;
+    background-color: rgb(3, 145, 36);
+}
